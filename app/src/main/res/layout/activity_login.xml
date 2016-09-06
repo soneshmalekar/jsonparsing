@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.del.jsonparsing.LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:background="#FF6A00"
+        >
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="10dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:paddingRight="10dp"
+            android:text="Login"
+            />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/user_account"
+        android:drawablePadding="20dp"
+        android:id="@+id/txtusername"
+        android:layout_marginLeft="20dp"
+        android:hint="Name"
+        android:textSize="15sp"
+        android:textColorHint="#FF6A00"
+        android:paddingLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp"
+        android:background="@drawable/createaccount_radius"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:background="#FF6A00"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:text="login"
+        />
+</LinearLayout>
